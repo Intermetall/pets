@@ -16,6 +16,8 @@ db-sqlite3==0.0.1
     # via -r requirements.in
 idna==3.11
     # via requests
+markovify==0.9.4
+    # via -r requirements.in
 narwhals==2.16.0
     # via plotly
 numpy==2.4.2
@@ -38,5 +40,7 @@ tk==0.1.0
     # via -r requirements.in
 tzdata==2025.3
     # via pandas
+unidecode==1.4.0
+    # via markovify
 urllib3==2.6.3
     # via requests
