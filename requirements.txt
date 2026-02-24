@@ -14,6 +14,8 @@ db==0.1.1
     # via db-sqlite3
 db-sqlite3==0.0.1
     # via -r requirements.in
+et-xmlfile==2.0.0
+    # via openpyxl
 idna==3.11
     # via requests
 markovify==0.9.4
@@ -24,6 +26,8 @@ numpy==2.4.2
     # via
     #   -r requirements.in
     #   pandas
+openpyxl==3.1.5
+    # via -r requirements.in
 packaging==26.0
     # via plotly
 pandas==3.0.0
